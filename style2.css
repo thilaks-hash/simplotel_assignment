@@ -32,17 +32,15 @@
 
 .rachel,
 .pexels {
-  width: 240px;
+  width: 280px;
   height: 240px;
   object-fit: cover;
-}
-.pexels {
-  padding-top: 10px;
+  padding: 5px;
 }
 
 .row {
   grid-area: image2;
-  width: 350px;
+  width: 340px;
   height: 100%;
   object-fit: cover;
   padding-right: 20px;
@@ -78,36 +76,28 @@
       "main"
       "footer"
       "right";
-    align-items: center;
+    justify-content: center;
+    margin-left: 130px;
   }
 
   .item4 {
     margin: 5px;
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
   }
 
-  .item3,
-  .item2 {
-    margin: 5px;
-    padding: 5px;
-    width: 250px;
-    height: 250px;
+  .item1,
+  .item2,
+  .item3 {
+    width: auto;
+    height: auto;
     text-align: center;
-    width: calc(100% - 20px);
-  }
-  .item1 {
-    margin-top: 0;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 20px;
     padding: 10px;
-    width: 250px;
-    height: 250px;
-    text-align: center;
-    width: calc(100% - 20px);
   }
 
   .item4 > h1 {
     font-size: 20px;
-
-    margin: 2px;
   }
 }

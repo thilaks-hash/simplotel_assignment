@@ -7,37 +7,33 @@ body {
   background: linear-gradient(to right, #fff4b0, #ffd3d0, #ffaef4) no-repeat
     center fixed;
   height: 100vh;
+  margin: 0;
 }
 
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines {
   display: none;
 }
-
 .container {
   max-width: 1200px;
   width: 90%;
   margin: auto;
 }
-
 .navbar {
   width: 100%;
   background-color: #ff7171;
-
-  padding: 10px;
+  color: #000;
+  z-index: 100;
 }
 
 .menu-items {
   display: flex;
   justify-content: space-around;
-  margin: 0;
-  padding: 0;
 }
 
 .menu-items li {
   list-style: none;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 10px;
   font-size: 1.3rem;
 }
 
@@ -101,6 +97,7 @@ p {
 @media (max-width: 768px) {
   .navbar {
     opacity: 0.95;
+    background-color: transparent;
   }
 
   .navbar-container input[type="checkbox"],
@@ -175,7 +172,7 @@ p {
   .navbar .menu-items {
     padding-top: 100px;
     background: #fff;
-    height: 100vh;
+    height: 70vh;
     max-width: 300px;
     transform: translate(-150%);
     display: flex;
@@ -188,7 +185,7 @@ p {
   }
 
   .navbar .menu-items li {
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.3rem;
     font-size: 1.1rem;
     font-weight: 500;
   }
